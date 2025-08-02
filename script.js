@@ -1,4 +1,4 @@
- //  1. Variable: Array of fruits
+ 
     let fruits = [
       "Apple ",
       "Kiwi ",
@@ -7,13 +7,12 @@
       "Papaya ",
       "Pineapple ",
       "Strawberry ",
-      "Watermelon ",
       "Cherry  "
     ];
 
-    // 2. Function: Show random fruit
+    
     function showFruit() {
-      //  3. Conditional + random logic
+      
       if (fruits.length > 0) {
         let randomIndex = Math.floor(Math.random() * fruits.length);
         let selectedFruit = fruits[randomIndex];
@@ -25,3 +24,11 @@
     function showMessage(){
       alert("new java script")
       }
+      try {
+  const PI = 3.141592653589793;
+  PI = 3.14;
+}
+catch (err) {
+  document.getElementById("demo").innerHTML = err;
+}
+      

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background: #9bb4f4;
+  color: #35390d;
+ text-align: center;
+
+}
+
+header {
+  background: #525f84;
+  padding: 15px;
+  color: rgb(176, 197, 223);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav a {
+  color: rgb(180, 205, 244);
+  text-decoration: none;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero, section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #6b82a7;
+}
+.nav-list :hover{
+color: #35390d;
+text-align: end;
+}
